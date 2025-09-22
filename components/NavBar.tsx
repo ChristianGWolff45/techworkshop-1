@@ -1,10 +1,14 @@
-import Link from "next/Link";
+import Link from "next/link";
 
-const NavBar () => {
+const NavBar = () => {
     return (
-        <link href="/">Home </link>
-        <link href="/">Home </link>
-        <link href="/">Home </link>
-        <link href="/">Home </link>
-)
-};
+        <nav className="flex gap-4 p-4 border-b">
+            <link href="/">Home </link>
+            <link href="/">Home </link>
+            <link href="/">Home </link>
+            <link href="/">Home </link>
+        </nav>
+    )
+}
+
+export default NavBar;
